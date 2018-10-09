@@ -2,22 +2,25 @@
 <html>
   <head>
     <meta charset="UTF-8">
-    <title>Hello World!</title>
+    <title>Romy Weather Station!</title>
   </head>
   <body>
-    <h1>Hello World!</h1>
-    <!-- All of the Node.js APIs are available in this renderer process. -->
-    We are using Node.js <script>document.write(process.versions.node)</script>,
-    Chromium <script>document.write(process.versions.chrome)</script>,
-    Electron <script>document.write(process.versions.electron)</script>,
-    and Serialport <script>document.write(require('serialport/package').version)</script>.
-
     <div id="error"></div>
     <div id="ports"></div>
+    <div id="connection">
+      <input type="text" id="port" />
+      <input type="button" id="connect"  value="Connect"/>
+    </div>
   </body>
 
   <script>
     // You can also require other files to run in this process
     require('./renderer.js')
   </script>
+
+  <style>
+    .hidden {
+      display: none;
+    }
+  </style>
 </html>

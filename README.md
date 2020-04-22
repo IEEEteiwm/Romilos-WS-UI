@@ -9,7 +9,7 @@ Python 2.7
 
 ## To use
 ```
-git clone https://github.com/IEEEteiwm/Romilos-WS-UI.git
+git clone https://github.com/ieeesbkastoria/Romilos-WS-UI.git
 cd Romilos-WS-UI
 npm install
 npm start
